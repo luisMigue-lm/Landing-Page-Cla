@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+/* Menu navbar */
+
+.menu {
+    background-image: url("./imgs/banner.jpg");
+}
+
+.img-logo {
+    display: flex;
+    width: 30%;
+}
+
+
+/* Corpo */
+
+.divContact {
+    background-image: url("./imgs/contact_g.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vw;
+    color: #ffffff;
+}
+
+.contactH h1 {
+    text-align: center;
+    border-bottom: #f7f7f7 solid 1px;
+    font-size: 40px;
+    margin-bottom: 3vw;
+
+}
+
+.contactPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    padding: 3vh 7vw 5vw 7vw;
+    border: #ffffff solid 1px;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 45%;
+
+}
+
+.contactPanel input {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    border: #ffffff solid 1px;
+    background-color: rgba(0, 0, 0, 0);
+    ;
+    margin-top: 5%;
+    width: 43vw;
+    padding: 1vw;
+}
+
+.contactPanel .message {
+    height: 10vh;
+}
+
+.contactPanel button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #48ca95;
+    border-radius: 25px;
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5vw;
+}
+
+#campoNome::placeholder {
+    color: #ffffff;
+}
+
+#campoEmail::placeholder {
+    color: #ffffff;
+}
+
+#campoNumero::placeholder {
+    color: #ffffff;
+}
+
+#campoMessagem::placeholder {
+    color: #ffffff;
+}
+
+/* Rodapé */
+
+.rodape {
+    background-image: url("./imgs/footer.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 4vw;
+}
+
+.icons .logo1,
+.imgIcones img {
+    margin-bottom: 10%;
+    margin-right: 2%;
+
+}
+
+
+.icons,
+.sobrenos,
+.contato,
+.Newsletter {
+    width: 30%;
+    padding: 4vw;
+}
+
+.rodape h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 550;
+
+}
+
+
+.Newsletter input {
+    font-family: "Poppins", sans-serif;
+    font-weight: 650;
+    padding: 4%;
+    width: 20vw;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.Newsletter button {
+    background-color: #48ca95;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 4%;
+    width: 15vw;
+    height: 5vh;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border: none;
+}
+
+
+.pai {
+    display: flex;
+    margin-bottom: 5vw;
+}
+
+.direitos {
+    text-align: center;
+    font-weight: 200;
+
+}
