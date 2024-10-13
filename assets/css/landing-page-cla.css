@@ -12,17 +12,91 @@ body {
 }
 
 
-/* Menu navbar */
+/* Cabeçalho */
 
-.menu {
+.cabecalho {
     background-image: url("./imgs/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 1vw 1vw 20vw 1vw;
 }
 
-.img-logo {
+.menu{
+    width: 96%;
+    padding: 2%;
+}
+
+.menu, ul, li a {
     display: flex;
-    width: 30%;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 
+.img-logo{
+   width: 15%;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    text-align: center;
+}
+
+.contInformacoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    padding: 1.5%;
+}
+
+.informacoes, .imagemPct {
+    width: 45%;
+}
+
+
+.imagemPct img {
+    width: 100%;
+}
+
+.informacoes h3{
+    font-weight: normal;
+    font-size: 3vw;
+
+}
+
+.informacoes h1{
+    font-size: 7vw;
+}
+
+.informacoes p{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 2vw 0 2vw 0;
+}
+
+.informacoes button {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid #ffffff 1px;
+    padding: 1.5vw;
+    margin: 1vw 1vw 1vw 0vw;
+    width: 18vw;
+    font-weight: 550;
+}
+
+.informacoes button a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
 
 /* Corpo */
 
@@ -59,7 +133,6 @@ body {
     color: #ffffff;
     margin-top: 20px;
     width: 45%;
-
 }
 
 .contactPanel input {
@@ -67,7 +140,6 @@ body {
     font-family: "Poppins", sans-serif;
     border: #ffffff solid 1px;
     background-color: rgba(0, 0, 0, 0);
-    ;
     margin-top: 5%;
     width: 43vw;
     padding: 1vw;
@@ -93,21 +165,10 @@ body {
     margin-top: 5vw;
 }
 
-#campoNome::placeholder {
+#campoNome::placeholder, #campoEmail::placeholder, #campoNumero::placeholder, #campoMessagem::placeholder {
     color: #ffffff;
 }
 
-#campoEmail::placeholder {
-    color: #ffffff;
-}
-
-#campoNumero::placeholder {
-    color: #ffffff;
-}
-
-#campoMessagem::placeholder {
-    color: #ffffff;
-}
 
 /* Rodapé */
 
@@ -126,7 +187,6 @@ body {
     margin-right: 2%;
 
 }
-
 
 .icons,
 .sobrenos,
@@ -170,7 +230,6 @@ body {
     font-weight: 400;
     border: none;
 }
-
 
 .pai {
     display: flex;
