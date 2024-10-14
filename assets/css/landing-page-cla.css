@@ -23,12 +23,14 @@ body {
     padding: 1vw 1vw 20vw 1vw;
 }
 
-.menu{
+.menu {
     width: 96%;
     padding: 2%;
 }
 
-.menu, ul, li a {
+.menu,
+ul,
+li a {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -36,20 +38,21 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 500;
+    font-size: 2vw;
 }
 
-.img-logo{
-   width: 15%;
+.img-logo {
+    width: 15%;
 }
 
-.lista{
+.lista {
     display: flex;
     justify-content: space-around;
     width: 75%;
     text-align: center;
 }
 
-.contInformacoes{
+.contInformacoes {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +60,8 @@ body {
     padding: 1.5%;
 }
 
-.informacoes, .imagemPct {
+.informacoes,
+.imagemPct {
     width: 45%;
 }
 
@@ -66,17 +70,17 @@ body {
     width: 100%;
 }
 
-.informacoes h3{
+.informacoes h3 {
     font-weight: normal;
     font-size: 3vw;
 
 }
 
-.informacoes h1{
+.informacoes h1 {
     font-size: 7vw;
 }
 
-.informacoes p{
+.informacoes p {
     font-size: 1em;
     font-weight: 500;
     padding: 2vw 0 2vw 0;
@@ -95,10 +99,207 @@ body {
 .informacoes button a {
     text-decoration: none;
     color: #ffffff;
-    
 }
 
 /* Corpo */
+
+.containerCards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vw 5vw 8vw 5vw;
+}
+
+.cardComputer,
+.cardLaptop,
+.cardTablet {
+    border: #48ca95 solid 1px;
+    border-radius: 12px;
+    padding: 1%;
+    margin: 1vw;
+    text-align: center;
+}
+
+.cardComputer h3,
+.cardLaptop h3,
+.cardTablet h3 {
+    padding: 2vw 1vw 0vw 1vw;
+    font-size: 2.5vw;
+}
+
+.cardComputer p,
+.cardLaptop p,
+.cardTablet p {
+    padding: 1vw;
+    font-size: 2vw;
+
+}
+
+.cardComputer img,
+.cardLaptop img,
+.cardTablet img {
+    padding: 2vw 1vw 0vw 1vw;
+    width: 9vw;
+}
+
+.containerProducts {
+    background-color: #f7f7f7;
+    text-align: center;
+    width: 94%;
+    padding: 3%;
+    padding-bottom: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.containerProducts h1 {
+    text-align: center;
+    border-bottom: #48ca95 solid 1px;
+    font-size: 4vw;
+    margin-bottom: 6vw;
+    padding-top: 4vw;
+}
+
+.products {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 88vw;
+}
+
+.coluna1,
+.coluna2,
+.coluna3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.foto button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+    color: #f7f7f7;
+    font-weight: 500;
+    width: 20vw;
+    text-align: center;
+    padding: 2.5%;
+    margin: 20%;
+    font-size: 2vw;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+    margin: 2vw;
+}
+
+.foto img {
+    width: 20vw;
+}
+
+.btnSeeMore button {
+    background-color: rgba(0, 0, 0, 0);
+    color: #48ca95;
+    border: #48ca95 solid 1px;
+    font-weight: 500;
+    font-size: 2vw;
+    width: 23vw;
+    height: 6vw;
+    padding: 4%;
+    margin: 2vw 3vw 7vw 3vw;
+}
+
+.divPromocao{
+    background-color: #4F4AA6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11vw 5vw 11vw 5vw;
+
+}
+
+.txtPromo{
+    width: 60%;
+}
+
+.txtPromo h3{
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+.txtPromo h1{
+    font-weight: 600;
+    font-size: 7vw;
+    padding-bottom: 6%;
+}
+
+.imgPromo{
+    width: 40%;
+}
+
+.imgPromo img{
+  width: 100%;
+}
+
+.txtPromo button{
+    background-color: #48ca95;
+    color: #ffffff;
+    border: none;
+    font-weight: 500;
+    font-size: 2vw;
+    width: 23vw;
+    height: 6vw;
+    padding: 4%;
+    text-align: center;
+}
+
+.divCustumer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 8%;
+}
+
+.divCustumer h1{
+    text-align: center;
+    border-bottom: #48ca95 solid 1px;
+    font-size: 4vw;
+    margin-bottom: 6vw;
+    padding-top: 4vw;
+}
+
+.userReview{
+    padding: 4%;
+    width: 85%;
+}
+
+.userReview img{
+    width: 6%;
+}
+
+.userReview h2 {
+    padding: 2% 0 2% 0;
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+.userReview p{
+    padding-bottom: 4%;
+    font-size: 2vw;
+    font-weight: 400;
+}
 
 .divContact {
     background-image: url("./imgs/contact_g.jpg");
@@ -116,8 +317,8 @@ body {
 
 .contactH h1 {
     text-align: center;
-    border-bottom: #f7f7f7 solid 1px;
-    font-size: 40px;
+    border-bottom: #ffffff solid 1px;
+    font-size: 4vw;
     margin-bottom: 3vw;
 
 }
@@ -165,7 +366,10 @@ body {
     margin-top: 5vw;
 }
 
-#campoNome::placeholder, #campoEmail::placeholder, #campoNumero::placeholder, #campoMessagem::placeholder {
+#campoNome::placeholder,
+#campoEmail::placeholder,
+#campoNumero::placeholder,
+#campoMessagem::placeholder {
     color: #ffffff;
 }
 
@@ -185,7 +389,6 @@ body {
 .imgIcones img {
     margin-bottom: 10%;
     margin-right: 2%;
-
 }
 
 .icons,
@@ -193,25 +396,27 @@ body {
 .contato,
 .Newsletter {
     width: 30%;
-    padding: 4vw;
+    padding: 4vw 3vw 4vw 3vw;
 }
 
-.rodape h1 {
-    font-size: 22px;
-    margin-bottom: 10px;
+.rodape h1{
+    font-size: 2.5vw;
+    margin-bottom: 8%;
     font-weight: 550;
-
 }
 
+.rodape p{
+    font-size: 1.6vw;
+}
 
 .Newsletter input {
     font-family: "Poppins", sans-serif;
     font-weight: 650;
     padding: 4%;
     width: 20vw;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    border-radius: 6px;
     border: none;
 }
 
@@ -222,7 +427,7 @@ body {
     padding: 4%;
     width: 15vw;
     height: 5vh;
-    font-size: 14px;
+    font-size: 1.5vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -239,5 +444,5 @@ body {
 .direitos {
     text-align: center;
     font-weight: 200;
-
+    
 }
