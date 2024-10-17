@@ -12,6 +12,10 @@ body {
 
 }
 
+a:active{
+    color: #48ca95;
+}
+
 
 /* Cabeçalho */
 
@@ -434,7 +438,7 @@ li a {
     border-radius: 10px;
     padding: 4%;
     width: 15vw;
-    height: 5vh;
+    height: 5vw;
     font-size: 1.5vw;
     text-align: center;
     display: flex;
