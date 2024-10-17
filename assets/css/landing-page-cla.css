@@ -52,6 +52,10 @@ li a {
     text-align: center;
 }
 
+.imagemMenu {
+    display: none;
+}
+
 .contInformacoes {
     display: flex;
     justify-content: space-between;
@@ -241,7 +245,7 @@ li a {
 .txtPromo h1{
     font-weight: 600;
     font-size: 7vw;
-    padding-bottom: 6%;
+    padding-bottom: 6%;                                                                                                                                                                                                                                                                                             
 }
 
 .imgPromo{
@@ -445,4 +449,122 @@ li a {
     text-align: center;
     font-weight: 200;
     
+}
+
+/*port Mobile*/
+
+@media (width < 700px ) {
+
+    /* Cabeçalho */ 
+
+    .lista a {
+        display: none;
+    }
+
+    .imagemMenu {
+        display: block;
+    }
+
+    .informacoes,
+    .imagemPct {
+        width: 100%;
+    }
+
+    .informacoes h3 {
+        padding: 8vw 0vw 2vw 0vw ;
+    }
+
+    .informacoes p {
+        padding: 0vw 0vw 10vw 0vw;
+    }
+    
+    .imagemPct img {
+        width: 100%;
+    }
+
+    .imagemPct {
+        padding-top: 5vw;
+    }
+
+    .contInformacoes {
+        display: block;
+    }
+
+    /* Corpo */
+
+    .containerCards {
+        display: block;
+    }
+
+    .containerCards p {
+        width: 100%;
+    }
+
+    .cardComputer,
+    .cardLaptop,
+    .cardTablet {
+        margin-bottom: 3vw;
+    }
+
+    .products img {
+        width: 100%;
+    }
+
+    .products button {
+        width: 100%;
+    }
+
+    .coluna1,
+    .coluna2,
+    .coluna3 {
+        display: block;
+    }
+
+    .btnSeeMore {
+        width: 60%;
+    }
+
+    .divPromocao {
+        display: block;
+    }
+
+    .imgPromo {
+        width: 100%;
+    }
+
+    .imgPromo img {
+        padding-top: 1vw;
+    } 
+
+
+    /* Rodapé */
+
+    .contactPanel {
+        width: 80vw;
+    }
+
+    .contactPanel input {
+        width: 83vw;
+    }
+
+    .contactPanel button {
+        width: 30%;
+    }
+
+
+    .pai {
+        display: block;
+    }
+
+    .icons,
+    .sobrenos,
+    .contato,
+    .Newsletter {
+        padding: 1vw 0vw 1vw 0vw;
+    }
+
+    .Newsletter input {
+        width: 80vw;
+    }
+
 }
