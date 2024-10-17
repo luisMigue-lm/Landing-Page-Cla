@@ -8,6 +8,7 @@
 body {
     width: 100%;
     font-family: "Poppins", sans-serif;
+    color: #ffffff;
 
 }
 
@@ -19,7 +20,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #ffffff;
     padding: 1vw 1vw 20vw 1vw;
 }
 
@@ -31,12 +31,12 @@ body {
 .menu,
 ul,
 li a {
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     list-style: none;
     align-items: center;
     text-decoration: none;
-    color: white;
     font-weight: 500;
     font-size: 2vw;
 }
@@ -91,6 +91,7 @@ li a {
 }
 
 .informacoes button {
+    font-family: "Poppins", sans-serif;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0);
     border: solid #ffffff 1px;
@@ -112,6 +113,8 @@ li a {
     justify-content: space-between;
     align-items: center;
     padding: 8vw 5vw 8vw 5vw;
+    color: #252525;
+    font-weight: 500;
 }
 
 .cardComputer,
@@ -148,6 +151,7 @@ li a {
 
 .containerProducts {
     background-color: #f7f7f7;
+    color: #252525;
     text-align: center;
     width: 94%;
     padding: 3%;
@@ -185,6 +189,7 @@ li a {
 }
 
 .foto button {
+    font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,6 +217,7 @@ li a {
 }
 
 .btnSeeMore button {
+    font-family: "Poppins", sans-serif;
     background-color: rgba(0, 0, 0, 0);
     color: #48ca95;
     border: #48ca95 solid 1px;
@@ -225,7 +231,6 @@ li a {
 
 .divPromocao{
     background-color: #4F4AA6;
-    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -257,6 +262,7 @@ li a {
 }
 
 .txtPromo button{
+    font-family: "Poppins", sans-serif;
     background-color: #48ca95;
     color: #ffffff;
     border: none;
@@ -274,6 +280,7 @@ li a {
     align-items: center;
     flex-direction: column;
     padding: 8%;
+    color: #252525;
 }
 
 .divCustumer h1{
@@ -302,7 +309,7 @@ li a {
 .userReview p{
     padding-bottom: 4%;
     font-size: 2vw;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .divContact {
@@ -310,13 +317,11 @@ li a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 5vw;
-    color: #ffffff;
 }
 
 .contactH h1 {
@@ -335,7 +340,6 @@ li a {
     width: 40vw;
     padding: 3vh 7vw 5vw 7vw;
     border: #ffffff solid 1px;
-    color: #ffffff;
     margin-top: 20px;
     width: 45%;
 }
@@ -365,6 +369,7 @@ li a {
     border: none;
     width: 15vw;
     height: 6vh;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 500;
     margin-top: 5vw;
@@ -385,8 +390,7 @@ li a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #ffffff;
-    padding: 4vw;
+    padding: 8vw 4vw 2vw 4vw;
 }
 
 .icons .logo1,
@@ -400,12 +404,12 @@ li a {
 .contato,
 .Newsletter {
     width: 30%;
-    padding: 4vw 3vw 4vw 3vw;
+    padding: 0vw 3vw 0vw 3vw;
 }
 
 .rodape h1{
     font-size: 2.5vw;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
     font-weight: 550;
 }
 
@@ -436,7 +440,7 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 400;
+    font-weight: 600;
     border: none;
 }
 
@@ -454,15 +458,23 @@ li a {
 /*port Mobile*/
 
 @media (width < 700px ) {
+    /* Cabecalho */ 
 
-    /* Cabeçalho */ 
+    .menu {
+        padding-top: 5%;
+    }
 
     .lista a {
         display: none;
     }
 
+    .img-logo{
+        margin-left: 2%;
+    }
+
     .imagemMenu {
         display: block;
+        margin-right: 5%;
     }
 
     .informacoes,
@@ -470,12 +482,22 @@ li a {
         width: 100%;
     }
 
+    .informacoes{
+        margin-left: 2%;
+    }
+
     .informacoes h3 {
         padding: 8vw 0vw 2vw 0vw ;
+        font-size: 6vw;
+    }
+
+    .informacoes h1{
+        font-size: 12vw;
     }
 
     .informacoes p {
         padding: 0vw 0vw 10vw 0vw;
+        font-size: 4vw;
     }
     
     .imagemPct img {
@@ -490,20 +512,46 @@ li a {
         display: block;
     }
 
+    .informacoes button {
+        border: solid #ffffff 2px;
+        padding: 2vw;
+        width: 30vw;
+        font-size: 4vw;
+    }
+
     /* Corpo */
 
     .containerCards {
         display: block;
     }
 
+    .containerCards img{
+        width: 14vh;
+    }
+
+    .containerCards h3{
+        font-size: 3vh;
+        padding: 2vh 0vw 2vw 0vw;
+    }
+
     .containerCards p {
-        width: 100%;
+        width: 95%;
+        font-size: 2.5vh;
     }
 
     .cardComputer,
     .cardLaptop,
     .cardTablet {
+        padding: 5%;
         margin-bottom: 3vw;
+    }
+
+    .containerProducts{
+        padding-bottom: 9vh;
+    }
+
+    .containerProducts h1{
+        font-size: 7vw;
     }
 
     .products img {
@@ -512,6 +560,7 @@ li a {
 
     .products button {
         width: 100%;
+        font-size: 2vh;
     }
 
     .coluna1,
@@ -521,50 +570,158 @@ li a {
     }
 
     .btnSeeMore {
-        width: 60%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 4.5vh;
+       
+    }
+
+    .btnSeeMore button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3.5vh;
+        width: 100vw;
+        border: #48ca95 solid 2px;
+
     }
 
     .divPromocao {
         display: block;
     }
 
+    .txtPromo h3{
+        width: 90vw;
+        font-size: 5.5vw;
+        padding-top: 5vh;
+    }
+
+    .txtPromo h1{
+       width: 90vw;
+        font-size: 8vh;
+        padding: 3vh 0 5vh 0;
+    }
+
+    .txtPromo button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4vh;
+        width: 23vh;
+        font-size: 2vh;
+    }
+
     .imgPromo {
-        width: 100%;
+        padding: 3vh;
+        width: 90%;
+        
     }
 
     .imgPromo img {
-        padding-top: 1vw;
+        width: 90%;
+        padding-top: 1.5vw;
+        padding-bottom: 5vh;
     } 
 
+    .divCustumer h1{
+        font-size: 7vw;
+    }
 
-    /* Rodapé */
+    .userReview {
+        padding: 7vw 0 7vw 0;
+    }
+
+    .userReview img{
+        width: 4vh;
+    }
+
+    .userReview h2{
+        font-size: 3vh;
+    }
+
+    .userReview p{
+        font-size: 2vh;
+    }
+    
+    .divContact {
+        padding: 9vh;
+    }
+    
+    .contactH h1 {
+        font-size: 7vw;
+    }
 
     .contactPanel {
-        width: 80vw;
+        width: 78vw;
+        display: flex;
+        gap: 2vw;
     }
 
     .contactPanel input {
-        width: 83vw;
+        width: 75vw;
+        padding: 3vw;
     }
 
-    .contactPanel button {
-        width: 30%;
+    .btnSend {
+        padding: 7vw;
     }
 
+    .btnSend button {
+        width: 45vw;
+        font-size: 4vw;
+    }
+
+    /* Rodapé */
 
     .pai {
         display: block;
+        padding-top: 12vw;
     }
 
-    .icons,
-    .sobrenos,
-    .contato,
+    .pai h1{
+        font-size: 6.5vw;
+    }
+    
+    .pai p{
+        text-align: left;
+        font-size: 3.5vw;
+    }
+    
+    .icons, .contato, .Newsletter{
+        width: 50%;
+        padding: 1vw 0 1vw 0;
+    }
+    
+    .sobrenos {
+        width: 60%;
+        padding: 1vw 0 1vw 0;
+    }
+
+    .sobrenos p, .contato p{
+        padding-bottom: 8%;
+    }
+
     .Newsletter {
-        padding: 1vw 0vw 1vw 0vw;
+        padding-bottom: 10vw;
+    }
+
+    .Newsletter h1{
+        padding: -10%;
     }
 
     .Newsletter input {
-        width: 80vw;
+        width: 88vw;
+    }
+
+    .Newsletter button {
+        width: 30vw;
+        font-size: 3.5vw;
+    }
+
+    .direitos p{
+        font-size: 5vw;
     }
 
 }
